@@ -12,7 +12,7 @@ alert(name)
 alert(age)
 alert(course)
 
-var pizza  = "PIZZA \N PIZZ \N PIZ \N PI \N P"
+var pizza  = "PIZZA \n PIZZ \n PIZ \n PI \n P"
 alert(pizza)
 
 var email = "sameerahmedgorgaij@gmail.com"
