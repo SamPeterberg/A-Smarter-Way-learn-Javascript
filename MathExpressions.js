@@ -48,4 +48,19 @@ document.writeln(`Table of ${num}
     document.writeln(`${Celcius}C is ${(Celcius*9/5)+32}F`)
     var fahrenheit = 780
     document.writeln(`${fahrenheit}f is ${(fahrenheit-32)*5/9}C`)
-    
+
+
+
+
+    var Price1 = 6789
+    var quantity1 = 6
+    var Price2 = 697
+    var quantity2 = 8
+    var shippingCharges = 100
+
+    document.writeln(`Total cost of your order is ${(Price1*quantity1)+(Price2*quantity2)+100}`)
+
+    var obtMarks = 890
+    var TotalMarks = 1300
+
+    document.writeln(`percentage = ${obtMarks/TotalMarks*100}`)
