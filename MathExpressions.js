@@ -41,3 +41,11 @@ document.writeln(`Table of ${num}
     ${num} X 9 = ${num*9}
     ${num} X 10 = ${num*10}
     `)
+
+
+
+    var Celcius = 56
+    document.writeln(`${Celcius}C is ${(Celcius*9/5)+32}F`)
+    var fahrenheit = 780
+    document.writeln(`${fahrenheit}f is ${(fahrenheit-32)*5/9}C`)
+    
