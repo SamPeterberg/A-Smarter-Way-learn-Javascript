@@ -37,3 +37,11 @@ document.writeln(`Table of ${num}
     ${num} X 9 = ${num*1}
     ${num} X 10 = ${num*1}
     `)
+
+    var subject1 = prompt("write the name of 1st subject")
+    var subject2 = prompt("write the name of 2nd subject")
+    var subject3 = prompt("write the name of third subject")
+    var totalMarks = 100*3
+    var marks1 = prompt("write the obtained marks of 1st subject")
+    var marks2 = prompt("write the obtained marks of 2nd subject")
+    var marks3 = prompt("write the obtained marks of third subject")
