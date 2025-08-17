@@ -42,6 +42,12 @@ document.writeln(`Table of ${num}
     var subject2 = prompt("write the name of 2nd subject")
     var subject3 = prompt("write the name of third subject")
     var totalMarks = 100*3
-    var marks1 = prompt("write the obtained marks of 1st subject")
-    var marks2 = prompt("write the obtained marks of 2nd subject")
-    var marks3 = prompt("write the obtained marks of third subject")
+    var marks1 = +prompt("write the obtained marks of 1st subject")
+    var marks2 = +prompt("write the obtained marks of 2nd subject")
+    var marks3 = +prompt("write the obtained marks of third subject")
+    var totalObtMarks = marks1+marks2+marks3
+    var percentage = (totalObtMarks/totalMarks)*100
+
+    console.table(subject1,subject2,subject3,
+        marks1,marks2,marks3,percentage
+    )
