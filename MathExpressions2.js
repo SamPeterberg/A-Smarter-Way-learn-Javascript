@@ -23,4 +23,17 @@ document.writeln(`Result:
         --a - --b + ++b + b-- ${--a - --b + ++b + b--}`)
      
 
-var num = +prompt("write any number for multiplication table")
+var num = +prompt("write any number for multiplication table",5)
+
+document.writeln(`Table of ${num}
+    ${num} X 1 = ${num*1}
+    ${num} X 2 = ${num*1}
+    ${num} X 3 = ${num*1}
+    ${num} X 4 = ${num*1}
+    ${num} X 5 = ${num*1}
+    ${num} X 6 = ${num*1}
+    ${num} X 7 = ${num*1}
+    ${num} X 8 = ${num*1}
+    ${num} X 9 = ${num*1}
+    ${num} X 10 = ${num*1}
+    `)
